@@ -22,3 +22,14 @@ main.py --调用--> |-----> Vandermond.py
 </pre>
 
 ## 安装
+git clone https://github.com/jupyternote/interpolation.git
+
+## 参数修改和调试
+main函数中param_dict存储了相关参数，在此处进行修改  
+1.left,right:插值区间的左右端点  
+2.num_node:使用多少个点进行函数图像绘制（默认参数1000足够，不需要修改）  
+3.num_use:使用多少个点求解插值函数  
+4.calculate_loss:使用多少个点计算损失  
+5.init_param:标准函数的参数
+
+func:被插值的标准函数，如果需要可以进行修改。

@@ -14,7 +14,7 @@ param_dict = {
     'right': np.pi,
     'num_node': 1000,
     'num_use': 10,
-    'calculate_loss': 100,  # 增加计算误差的点数
+    'calculate_loss': 101,  # 增加计算误差的点数
     'title': 'Function Interpolation',
     'init_param': {
         'c': 3,
